@@ -194,6 +194,8 @@ persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.display_delay=40
 persist.vendor.ims.playout_delay=50
 persist.vendor.ims.vt.enableadb=1
+persist.vendor.std_pd.disallowed=1
+persist.vendor.sys.cnd.iwlan=1
 
 # Incremental FS
 ro.incremental.enable=true
@@ -219,7 +221,7 @@ persist.vendor.qteeconnector.retrying_timeout=2000
 persist.vendor.qcomsysd.enabled=1
 
 # Radio
-persist.rcs.supported=1
+
 persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.0x9e_not_callname=1
 persist.vendor.radio.add_power_save=1
@@ -249,15 +251,18 @@ persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sar_sensor=1
 persist.vendor.radio.sib16_support=1
 persist.vendor.radio.start_ota_daemon=0
-persist.vendor.radio.suppress_ussd_rel=1
 persist.vendor.radio.sw_mbn_update=0
-persist.vendor.rcs.presence.provision=0
-
+persist.vendor.radio.mot_efs_log=false
+persist.vendor.radio.poweron_opt=1
+persist.vendor.radio.snapshot_enabled=1
+persist.vendor.radio.snapshot_timer=22
+telephony.lteOnCdmaDevice=1
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 ro.vendor.sensors.glance_approach=false
+
 
 # Shutdown
 sys.vendor.shutdown.waittime=500
